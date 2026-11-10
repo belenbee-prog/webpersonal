@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belén M.S.</title>
+    <link rel="stylesheet" href="normalize.css">
+    <script src="modernizr-custom.js"></script>
+    <link rel="stylesheet" href="aev4estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>  
+    <nav>
+		<ol>
+			<li><a class="enlacenav" href="sobremi.html">Sobre mí</a></li>
+			<li><a class="enlacenav" href="curriculum.html">Currículum</a></li>
+			<li><a class="enlacenav" href="contacto.html">Contacto</a></li>
+		</ol>
+	</nav>
+    <header>
+        <p class="hola"> Hola! </p>
+        <p class="bienvenido">Bienvenido a mi página web.</p>
+        <h1>Soy Belén</h1>
+    </header>
+  
+    <section>
+        <article>
+            <div class="videopresentacion">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dc-gNJ7HTac?si=iGIUFTrD4GGnkku0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="sobremi">
+                <h2 class="subtitulo">Sobre mí</h2>
+                <div class="texto">
+                    <p>Soy estudiante de <span>desarrollo web</span> y sistemas. Me gusta entender cómo funcionan las cosas por dentro, depurar errores y mejorar cada proyecto paso a paso. Busco avanzar hacia un perfil técnico sólido y seguir aprendiendo cada día.</p>
+                </div>
+            </div>
+            
+        </article>
+           <article >
+            <div class="trayectoria">
+                <h2 class="subtitulo">Mi trayectoria</h2>
+                <div class="texto">
+                    <p>Antes de interesarme por la <span>programación</span> venía del mundo de la contabilidad, donde aprendí a trabajar con precisión, organización y lógica. Con el tiempo descubrí que esas mismas habilidades encajaban perfectamente con la <span>codificación</span>, y desde entonces he ido orientando mi trayectoria hacia la tecnología. Si quieres ver el recorrido con más detalle -></p>
+                </div>
+            </div>
+            <div class="descargacv">
+                <a href="https://drive.google.com/file/d/14MfuuPH_nole7WlcRqlW-svtU47pIeR_/view?usp=drive_link">Descargar mi currículum</a>
+            </div>
+        </article>
+        <article class="estrecho"> 
+            <div class="formulario">
+                <form action='contacto.php' method='post' name='formulario'>
+                    <input type="text" name="nombre" placeholder="Nombre">
+                    <input id='email' name='email' type='text' placeholder='Email'/>
+                    <textarea name="mensaje" placeholder="Mensaje" rows="6"></textarea>
+                    <input type='submit' class="botonenviar" name='Submit' id='button' value='Contáctame!' />
+              </form>
+            </div>
+            <div class="contacto">
+                <h2 class="subtitulo">Colabora conmigo</h2>
+                <div class="texto">
+                    <p> Puedes escribirme a mi correo <span>belenmartins2810@gmail.com</span> o rellenando el formulario. Estaré encantada de conocerte!</p>
+                </div>
+            </div>
+           
+        </article>
+        <div class="despedida">
+            <p class="gracias">Gracias por tu visita!!</p>
+        </div>
+    </section>
+    <footer>
+        <p>Página web personal de BM</p>
+    </footer>
+</body>
+</html>
